@@ -94,11 +94,7 @@ global:
   containerSecurityContext: {}
 
   # -- Sets pod/node affinities
-  affinity: {}
-  # -- Sets pod's node selector
-  nodeSelector: {}
-  # -- Sets pod's tolerations to node taints
-  tolerations: []
+
 
   # -- Adds extra attributes to the cluster and all the metrics emitted to the backend
   customAttributes: {}
